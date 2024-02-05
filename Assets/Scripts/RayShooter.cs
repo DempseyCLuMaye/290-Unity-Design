@@ -16,8 +16,8 @@ public class RayShooter : MonoBehaviour
     void OnGUI()
     {
         int size = 24;
-        float posX = cam.pixelWidth / 2 - size / 2;
-        float posY = cam.pixelHeight / 2 - size / 2;
+        float posX = cam.pixelWidth / 2 - size / 4;
+        float posY = cam.pixelHeight / 2 - size / 4;
     
 
         GUI.Label(new Rect(posX, posY, size, size), "+");
